@@ -1,0 +1,7 @@
+package ru.alex3koval.docService
+
+class DocumentServiceException : Exception {
+    constructor(message: String, cause: Exception) : super(message, cause)
+
+    constructor(message: String) : super(message)
+}
